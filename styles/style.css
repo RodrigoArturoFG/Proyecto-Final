@@ -1,0 +1,342 @@
+/* HEADER */
+
+.header-flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #ffffff;
+}
+
+.header-flex-container #compras {
+  width: 40px;
+  margin: 10px;
+  margin-top: 20px;
+  line-height: 55px;
+}
+
+.header-flex-container #favoritos {
+  width: 40px;
+  margin: 10px;
+  margin-top: 20px;
+  line-height: 55px;
+}
+
+.header-flex-container #perfil {
+  width: 40px;
+  margin: 10px;
+  margin-top: 20px;
+  line-height: 55px;
+}
+
+.header-flex-container #buscar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#searchTextField {
+  margin: 10px;
+  width: 100px;
+  height: 30px;
+}
+
+#lupa {
+  width: 40px;
+  margin: 10px;
+  margin-top: 10px;
+  line-height: 55px;
+}
+
+.header-flex-container #titulo {
+  color: #6E2A07;
+  width: 150px;
+  margin: 10px;
+  padding-top: 10px;
+  text-align: center;
+  line-height: 55px;
+  text-transform: capitalize;
+  font-family: Papyrus;
+  font-size: 30px;
+}
+
+/* HEADER NAV */
+
+.headerNav {
+  display: flex;
+  justify-content: center;
+  background-color: #B69976;
+  margin: 0 0 0 0;
+}
+
+.headerA {
+  padding: 5px 15px;
+  color: #ffffff;
+  font-weight: 300;
+}
+
+.headerA:link {
+  text-decoration: none;
+}
+
+.headerA:visited {
+  text-decoration: none;
+}
+
+.headerA:hover {
+  text-decoration: none;
+}
+
+.headerA:active {
+  text-decoration: none;
+}
+
+/* FRONT PAGE */
+
+.front-page-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #dc143c;
+  background-image: url("../resources/portada.jpg");
+  background-size: cover;
+  background-position: 75% center;
+  height: 210px;
+}
+
+.front-page-flex-container #creando {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+.front-page-flex-container #vivir {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 15px;
+  font-style: italic;
+  color: #ffffff;
+}
+
+/* RECOMMENDATIONS */
+
+.recommendations-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #34ffff;
+  height: 270px;
+}
+
+.recommendations-book-element-flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #f1f1f1;
+}
+
+.recommendations-book-element-flex-container #book1 {
+  background-color: #f1f1d1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.recommendations-book-element-flex-container #book2 {
+  background-color: #f1f1d1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.recommendations-book-element-flex-container #book3 {
+  background-color: #f1f1d1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.recommendations-book-element-flex-container #book4 {
+  background-color: #f1f1d1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* BOOKS */
+
+.title-books-flex-container {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+.title-books-flex-container #div1 {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  margin-right: 550px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.title-books-flex-container #div2 {
+  background-color: #f1f1e1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.books-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffa500;
+  height: 270px;
+}
+
+.books-element-flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #f1f1f1;
+}
+
+.books-element-flex-container #book5 {
+  background-color: #f1f1d1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.books-element-flex-container #book6 {
+  background-color: #f1f1d1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.books-element-flex-container #book7 {
+  background-color: #f1f1d1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.books-element-flex-container #book8 {
+  background-color: #f1f1d1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.books-element-flex-container #book9 {
+  background-color: #f1f1d1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* CONOCENOS */
+
+.know-Us-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #C71585;
+  height: 250px;
+}
+
+.know-Us-flex-container #div1 {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.know-Us-flex-container #div2 {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+/* FOOTER */
+
+.footer-flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #daa520;
+  height: 250px;
+}
+
+.footer-table-flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f1f1f1;
+  margin: 10px;
+}
+
+.footer-table-flex-container #div1 {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.footer-table-flex-container #div2 {
+  background-color: #f1f1e1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.footer-table-flex-container #div3 {
+  background-color: #f1f1e1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.footer-copy-flex-container {
+  background-color: #f1f1e1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
